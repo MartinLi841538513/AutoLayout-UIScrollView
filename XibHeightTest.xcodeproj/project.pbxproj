@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2215360619AAD4730043E0D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2215360519AAD4730043E0D8 /* Foundation.framework */; };
+		2215360819AAD4730043E0D8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2215360719AAD4730043E0D8 /* CoreGraphics.framework */; };
+		2215360A19AAD4730043E0D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2215360919AAD4730043E0D8 /* UIKit.framework */; };
+		2215361019AAD4740043E0D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2215360E19AAD4740043E0D8 /* InfoPlist.strings */; };
+		2215361219AAD4740043E0D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2215361119AAD4740043E0D8 /* main.m */; };
+		2215361619AAD4740043E0D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2215361519AAD4740043E0D8 /* AppDelegate.m */; };
+		2215361919AAD4740043E0D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2215361719AAD4740043E0D8 /* Main.storyboard */; };
+		2215361C19AAD4740043E0D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2215361B19AAD4740043E0D8 /* ViewController.m */; };
+		2215361E19AAD4740043E0D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2215361D19AAD4740043E0D8 /* Images.xcassets */; };
+		2215362519AAD4740043E0D8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2215362419AAD4740043E0D8 /* XCTest.framework */; };
+		2215362619AAD4740043E0D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2215360519AAD4730043E0D8 /* Foundation.framework */; };
+		2215362719AAD4740043E0D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2215360919AAD4730043E0D8 /* UIKit.framework */; };
+		2215362F19AAD4740043E0D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2215362D19AAD4740043E0D8 /* InfoPlist.strings */; };
+		2215363119AAD4740043E0D8 /* XibHeightTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2215363019AAD4740043E0D8 /* XibHeightTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2215362819AAD4740043E0D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 221535FA19AAD4730043E0D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2215360119AAD4730043E0D8;
+			remoteInfo = XibHeightTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2215360219AAD4730043E0D8 /* XibHeightTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XibHeightTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2215360519AAD4730043E0D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2215360719AAD4730043E0D8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2215360919AAD4730043E0D8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2215360D19AAD4740043E0D8 /* XibHeightTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XibHeightTest-Info.plist"; sourceTree = "<group>"; };
+		2215360F19AAD4740043E0D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2215361119AAD4740043E0D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2215361319AAD4740043E0D8 /* XibHeightTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XibHeightTest-Prefix.pch"; sourceTree = "<group>"; };
+		2215361419AAD4740043E0D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2215361519AAD4740043E0D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2215361819AAD4740043E0D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2215361A19AAD4740043E0D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2215361B19AAD4740043E0D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2215361D19AAD4740043E0D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2215362319AAD4740043E0D8 /* XibHeightTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XibHeightTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2215362419AAD4740043E0D8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2215362C19AAD4740043E0D8 /* XibHeightTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XibHeightTestTests-Info.plist"; sourceTree = "<group>"; };
+		2215362E19AAD4740043E0D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2215363019AAD4740043E0D8 /* XibHeightTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XibHeightTestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		221535FF19AAD4730043E0D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2215360819AAD4730043E0D8 /* CoreGraphics.framework in Frameworks */,
+				2215360A19AAD4730043E0D8 /* UIKit.framework in Frameworks */,
+				2215360619AAD4730043E0D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2215362019AAD4740043E0D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2215362519AAD4740043E0D8 /* XCTest.framework in Frameworks */,
+				2215362719AAD4740043E0D8 /* UIKit.framework in Frameworks */,
+				2215362619AAD4740043E0D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		221535F919AAD4730043E0D8 = {
+			isa = PBXGroup;
+			children = (
+				2215360B19AAD4740043E0D8 /* XibHeightTest */,
+				2215362A19AAD4740043E0D8 /* XibHeightTestTests */,
+				2215360419AAD4730043E0D8 /* Frameworks */,
+				2215360319AAD4730043E0D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2215360319AAD4730043E0D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2215360219AAD4730043E0D8 /* XibHeightTest.app */,
+				2215362319AAD4740043E0D8 /* XibHeightTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2215360419AAD4730043E0D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2215360519AAD4730043E0D8 /* Foundation.framework */,
+				2215360719AAD4730043E0D8 /* CoreGraphics.framework */,
+				2215360919AAD4730043E0D8 /* UIKit.framework */,
+				2215362419AAD4740043E0D8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2215360B19AAD4740043E0D8 /* XibHeightTest */ = {
+			isa = PBXGroup;
+			children = (
+				2215361419AAD4740043E0D8 /* AppDelegate.h */,
+				2215361519AAD4740043E0D8 /* AppDelegate.m */,
+				2215361719AAD4740043E0D8 /* Main.storyboard */,
+				2215361A19AAD4740043E0D8 /* ViewController.h */,
+				2215361B19AAD4740043E0D8 /* ViewController.m */,
+				2215361D19AAD4740043E0D8 /* Images.xcassets */,
+				2215360C19AAD4740043E0D8 /* Supporting Files */,
+			);
+			path = XibHeightTest;
+			sourceTree = "<group>";
+		};
+		2215360C19AAD4740043E0D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2215360D19AAD4740043E0D8 /* XibHeightTest-Info.plist */,
+				2215360E19AAD4740043E0D8 /* InfoPlist.strings */,
+				2215361119AAD4740043E0D8 /* main.m */,
+				2215361319AAD4740043E0D8 /* XibHeightTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2215362A19AAD4740043E0D8 /* XibHeightTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				2215363019AAD4740043E0D8 /* XibHeightTestTests.m */,
+				2215362B19AAD4740043E0D8 /* Supporting Files */,
+			);
+			path = XibHeightTestTests;
+			sourceTree = "<group>";
+		};
+		2215362B19AAD4740043E0D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2215362C19AAD4740043E0D8 /* XibHeightTestTests-Info.plist */,
+				2215362D19AAD4740043E0D8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2215360119AAD4730043E0D8 /* XibHeightTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2215363419AAD4740043E0D8 /* Build configuration list for PBXNativeTarget "XibHeightTest" */;
+			buildPhases = (
+				221535FE19AAD4730043E0D8 /* Sources */,
+				221535FF19AAD4730043E0D8 /* Frameworks */,
+				2215360019AAD4730043E0D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XibHeightTest;
+			productName = XibHeightTest;
+			productReference = 2215360219AAD4730043E0D8 /* XibHeightTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2215362219AAD4740043E0D8 /* XibHeightTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2215363719AAD4740043E0D8 /* Build configuration list for PBXNativeTarget "XibHeightTestTests" */;
+			buildPhases = (
+				2215361F19AAD4740043E0D8 /* Sources */,
+				2215362019AAD4740043E0D8 /* Frameworks */,
+				2215362119AAD4740043E0D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2215362919AAD4740043E0D8 /* PBXTargetDependency */,
+			);
+			name = XibHeightTestTests;
+			productName = XibHeightTestTests;
+			productReference = 2215362319AAD4740043E0D8 /* XibHeightTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		221535FA19AAD4730043E0D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = martin;
+				TargetAttributes = {
+					2215362219AAD4740043E0D8 = {
+						TestTargetID = 2215360119AAD4730043E0D8;
+					};
+				};
+			};
+			buildConfigurationList = 221535FD19AAD4730043E0D8 /* Build configuration list for PBXProject "XibHeightTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 221535F919AAD4730043E0D8;
+			productRefGroup = 2215360319AAD4730043E0D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2215360119AAD4730043E0D8 /* XibHeightTest */,
+				2215362219AAD4740043E0D8 /* XibHeightTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2215360019AAD4730043E0D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2215361E19AAD4740043E0D8 /* Images.xcassets in Resources */,
+				2215361019AAD4740043E0D8 /* InfoPlist.strings in Resources */,
+				2215361919AAD4740043E0D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2215362119AAD4740043E0D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2215362F19AAD4740043E0D8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		221535FE19AAD4730043E0D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2215361C19AAD4740043E0D8 /* ViewController.m in Sources */,
+				2215361619AAD4740043E0D8 /* AppDelegate.m in Sources */,
+				2215361219AAD4740043E0D8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2215361F19AAD4740043E0D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2215363119AAD4740043E0D8 /* XibHeightTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2215362919AAD4740043E0D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2215360119AAD4730043E0D8 /* XibHeightTest */;
+			targetProxy = 2215362819AAD4740043E0D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2215360E19AAD4740043E0D8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2215360F19AAD4740043E0D8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2215361719AAD4740043E0D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2215361819AAD4740043E0D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2215362D19AAD4740043E0D8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2215362E19AAD4740043E0D8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2215363219AAD4740043E0D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2215363319AAD4740043E0D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2215363519AAD4740043E0D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XibHeightTest/XibHeightTest-Prefix.pch";
+				INFOPLIST_FILE = "XibHeightTest/XibHeightTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2215363619AAD4740043E0D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XibHeightTest/XibHeightTest-Prefix.pch";
+				INFOPLIST_FILE = "XibHeightTest/XibHeightTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2215363819AAD4740043E0D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XibHeightTest.app/XibHeightTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XibHeightTest/XibHeightTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "XibHeightTestTests/XibHeightTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2215363919AAD4740043E0D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XibHeightTest.app/XibHeightTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XibHeightTest/XibHeightTest-Prefix.pch";
+				INFOPLIST_FILE = "XibHeightTestTests/XibHeightTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		221535FD19AAD4730043E0D8 /* Build configuration list for PBXProject "XibHeightTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2215363219AAD4740043E0D8 /* Debug */,
+				2215363319AAD4740043E0D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2215363419AAD4740043E0D8 /* Build configuration list for PBXNativeTarget "XibHeightTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2215363519AAD4740043E0D8 /* Debug */,
+				2215363619AAD4740043E0D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2215363719AAD4740043E0D8 /* Build configuration list for PBXNativeTarget "XibHeightTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2215363819AAD4740043E0D8 /* Debug */,
+				2215363919AAD4740043E0D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 221535FA19AAD4730043E0D8 /* Project object */;
+}
